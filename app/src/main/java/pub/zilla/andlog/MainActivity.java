@@ -16,13 +16,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("==onCreate==");
         Log.e("error", new Exception("hahaha"));
         Log.e("error info");
-        Logger.d("oncreate...");
-
-
-        logMe();
     }
 
-    private void logMe(){
-        Logger.d("oncreate...");
-    }
 }
