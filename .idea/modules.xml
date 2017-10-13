@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndLog.iml" filepath="$PROJECT_DIR$/AndLog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logzilla/logzilla.iml" filepath="$PROJECT_DIR$/logzilla/logzilla.iml" />
+    </modules>
+  </component>
+</project>

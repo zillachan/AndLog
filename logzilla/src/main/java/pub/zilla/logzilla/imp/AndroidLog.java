@@ -27,6 +27,11 @@ public class AndroidLog implements LogInterface {
     }
 
     @Override
+    public void v(String msg, Throwable tr) {
+        Log.v("", msg, tr);
+    }
+
+    @Override
     public void i(String msg) {
         Log.i("", msg);
 
@@ -40,6 +45,11 @@ public class AndroidLog implements LogInterface {
     @Override
     public void i(String tag, String msg, Throwable tr) {
         Log.i(tag, msg, tr);
+    }
+
+    @Override
+    public void i(String msg, Throwable tr) {
+        Log.i("", msg, tr);
     }
 
     @Override
@@ -58,6 +68,11 @@ public class AndroidLog implements LogInterface {
     }
 
     @Override
+    public void d(String msg, Throwable tr) {
+        Log.d("", msg, tr);
+    }
+
+    @Override
     public void e(String msg) {
         Log.e("", msg);
     }
@@ -70,6 +85,11 @@ public class AndroidLog implements LogInterface {
     @Override
     public void e(String tag, String msg, Throwable tr) {
         Log.e(tag, msg, tr);
+    }
+
+    @Override
+    public void e(String msg, Throwable tr) {
+        Log.e("", msg, tr);
     }
 
     @Override

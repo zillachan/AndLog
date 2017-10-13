@@ -39,6 +39,11 @@ public class Log {
             log.v(tag, msg, tr);
     }
 
+    public static void v(String msg, Throwable tr) {
+        if (open)
+            log.v(msg, tr);
+    }
+
     public static void i(String msg) {
         if (open)
             log.i(msg);
@@ -52,6 +57,11 @@ public class Log {
     public static void i(String tag, String msg, Throwable tr) {
         if (open)
             log.i(tag, msg, tr);
+    }
+
+    public static void i(String msg, Throwable tr) {
+        if (open)
+            log.i(msg, tr);
     }
 
     public static void d(String msg) {
@@ -69,6 +79,11 @@ public class Log {
             log.d(tag, msg, tr);
     }
 
+    public static void d(String msg, Throwable tr) {
+        if (open)
+            log.d(msg, tr);
+    }
+
     public static void e(String msg) {
         if (open)
             log.e(msg);
@@ -82,5 +97,10 @@ public class Log {
     public static void e(String tag, String msg, Throwable tr) {
         if (open)
             log.e(tag, msg, tr);
+    }
+
+    public static void e(String msg, Throwable tr) {
+        if (open)
+            log.e(msg, tr);
     }
 }
